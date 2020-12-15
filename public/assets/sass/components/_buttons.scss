@@ -1,0 +1,15 @@
+button, a.button{
+    width: 130px;
+    height: 54px;
+    margin: 15px;
+    padding: 11px 22px 10px;
+    border-radius: 6px;
+    background-color: $button-color;
+    color:$dark-mauve;
+    border: 1px transparent;
+
+    &:hover{
+      background-color: $clear-color;  
+      border: 1px solid $dark-mauve;
+    }
+}

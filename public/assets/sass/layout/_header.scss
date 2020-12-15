@@ -1,0 +1,25 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    height: 100px;
+
+    & ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: 100px;
+       & li{
+        font-size: $p-font-size;
+        margin: auto 1rem;
+       }
+    }
+    & .actions{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+   
+    }
+}

@@ -7,19 +7,17 @@
     <link rel="stylesheet" href="assets/css/import.css">
 </head>
 <body>
-    <header>
-        <a href="#"><h1>redline</h1></a>
-        <nav>
-            <ul>
-              <li><a href="#">Lien 1</a></li>
-              <li><a href="#">Lien 1</a></li>
-              <li><a href="#">Lien 1</a></li>
-            </ul>
-        </nav>
-        <div class="actions">
-            <button>Connexion</button>
-            <button>inscription</button>
-        </div>
-    </header>
+   <?php include ROOT. "/public/includes/_header.php" ;?>
+    <main>
+        <section class="hero--centered">
+            <h2 class="catch-phrase">
+            Participez à des sondages en <span class="highlight">temps réel</span> et comparez vos résultats
+            </h2>
+           <a class="button"href="#">Regarder un exemple</a>
+        </section>
+    </main>
+
+
+   <?php include ROOT. "/public/includes/_footer.php" ;?>
 </body>
 </html>

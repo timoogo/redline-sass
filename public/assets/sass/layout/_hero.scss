@@ -1,0 +1,19 @@
+.hero--centered{
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    width: 50%;
+    height: 80vh;
+    margin: auto;
+    text-align: center;
+    & a.button{
+        margin: 15px auto;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        display: flex;
+      
+
+    }
+}
