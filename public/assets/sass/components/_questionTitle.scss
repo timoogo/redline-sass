@@ -7,6 +7,7 @@ section[singlePoll]{
     & div.title{
         margin-left: 10vw;
         padding-top: 30vh;
+        color: $clear-color;
         & .highlight:hover{
             color:$clear-color;
             text-decoration: underline;
