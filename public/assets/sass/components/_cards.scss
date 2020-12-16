@@ -1,0 +1,69 @@
+section[singlePoll]{
+    & div.details{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        & div.cards{
+            & div.card.answer{
+                border: 4px solid $clear-color;
+                border-radius: 10px;
+                width:675px;
+                height: 200px;
+                background-color: $dark-mauve;
+                margin: 2rem auto;
+                box-sizing: border-box;
+
+
+
+                & .number{
+                    display: flex;
+                    justify-content: flex-end;
+                    padding: 1rem;
+                    font-size: $number-font-size;
+                    color: $clear-color;
+                }
+                & h4{
+                    color: $clear-color;
+                    font-size: $h2-font-size;
+                    margin-left: 2rem;
+                }
+            }
+        }
+        & aside{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 30vh;
+            & div.vote{
+                display: flex;
+                width: 100%;
+                height: 60px;
+                background-color: #fff;
+                justify-content: center;
+
+                align-items: center;
+                & span{
+                    font-size: $font-size-vote;
+                }
+            }
+        }
+        & h4{
+            font-size: $h5-font-size;
+            color: $dark-mauve;
+            margin-bottom:1rem ;
+        }
+        & .social-links {
+            width: 100%;
+            border: 4px solid white;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: space-between;
+            height: 50px;
+            align-items: center;
+            border-radius: 50px;
+            padding: 13px;
+            margin-top: 40px;
+        }
+    }
+    
+}

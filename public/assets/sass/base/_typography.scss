@@ -22,10 +22,20 @@ p{
 // span{}
  span.highlight{
      color: $dark-mauve;
+     &.clear{
+        color: $clear-color;
+        font-weight: $author-font-weight !important;
+        
+        &:hover{
+        color: $dark-mauve !important;
+        }
+     }
      &.highlight:hover{
         color: $pinkish-tan;
         text-decoration: underline $pinkish-tan;
     }
+    
+
  }
  a{
     text-decoration: none;

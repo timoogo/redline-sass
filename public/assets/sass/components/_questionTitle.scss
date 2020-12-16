@@ -1,0 +1,18 @@
+section[singlePoll]{
+    height: 100vh;
+    background-image: url('../../assets/img/background.png');
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    & div.title{
+        margin-left: 10vw;
+        padding-top: 30vh;
+        & .highlight:hover{
+            color:$clear-color;
+            text-decoration: underline;
+        }
+        & h2{
+            margin: 2vh auto;
+        }
+    }
+}

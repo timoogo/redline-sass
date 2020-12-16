@@ -1,0 +1,35 @@
+progress{
+    -webkit-appearance: none;
+    width: 90%;
+    padding: 0 .5rem;
+    box-sizing: border-box;
+    margin: auto;
+    display: block;
+    background-color: $dark-mauve;
+    border-radius: 20px;
+
+}
+ 
+  progress::-webkit-progress-value {
+    background: lightblue;
+    border-radius: 20px;
+  }
+  
+  progress::-moz-progress-bar {
+    background: lightcolor;
+    border-radius: 20px;
+  }
+  
+  progress::-webkit-progress-value {
+    background: $pinkish-tan;
+    border-radius: 20px;
+  }
+  
+  progress::-webkit-progress-bar {
+    background: $clear-color;
+    border-radius: 20px;
+  }
+  .progress{
+    height: 40px;
+    margin: 12px auto;
+  }
