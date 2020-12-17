@@ -1,0 +1,54 @@
+section[preview]{
+    height: 150vh;
+    background-color: $pinkish-tan;
+    padding: 5vh;
+    box-sizing: border-box;
+    & h2{
+        text-align: right;
+        margin-right: 9vw;
+        margin-bottom: 5vh;
+        &.clear{
+            color: $clear-color;
+        }
+    }
+}
+
+section[MyApp]{
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+    background-color: $clear-color;
+    header{
+        background-color: $clear-color;
+        justify-content: flex-end;
+        align-items: flex-end;
+        height: 120px;
+        & nav {
+            margin-right: 5vw;
+            & button{
+                height: 75px;
+            }
+            & button:first-of-type, button:last-of-type {
+                /* display: flex; */
+                /* flex-direction: revert; */
+                position: relative;
+                top: 8px;
+        }
+    }
+}
+    .title{
+        margin-left: 5vw;
+        margin: 5vh;
+        & h4{
+            font-size: 64px;
+            color: $dark-mauve;
+        }
+        & span.annotation{
+            font-size: 18px;
+            font-weight: normal;
+            color: $dark-mauve;
+
+        }
+    }
+
+}

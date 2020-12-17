@@ -1,13 +1,14 @@
 section[singlePoll]{
     height: 140vh;
-    background-size: 120%;
+    background-size: 140%;
     background-repeat: no-repeat;
-    background-position: 40% 60%;
+    background-position: 40% 40%;
     background-image: url('../../assets/img/background.png');
+
 
     & div.title{
         margin-left: 10vw;
-        padding-top: 30vh;
+        padding-top: 25vh;
         color: $clear-color;
         & .highlight:hover{
             color:$clear-color;

@@ -7,6 +7,7 @@
     height: 80vh;
     margin: auto;
     text-align: center;
+    
     & a.button{
         margin: 15px auto;
         flex-direction: column;
@@ -18,6 +19,11 @@
     }
 }
 .hero--compare{
-    width: 40%;
-    margin-left: 10vw;
+    position: relative;
+    top: -26vh;
+   & .content{
+
+       width: 40%;
+       margin-left: 10vw;
+    }
 }

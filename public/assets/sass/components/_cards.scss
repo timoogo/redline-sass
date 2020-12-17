@@ -70,3 +70,27 @@ section[singlePoll]{
     }
     
 }
+section[MyApp]{
+    section.cards{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        & div.card.profil--response{
+            border: 4px solid $pinkish-tan;
+            border-radius: 10px;
+            width:25%;
+            height: 50vh;
+            background-color: $clear-color;
+            margin: 2rem auto;
+            box-sizing: border-box;
+            & .smiley img{
+                display: block;
+                margin: auto;
+            }
+            & progress::-webkit-progress-bar {
+                background: $dark-mauve !important;
+                border-radius: 20px;
+              }
+        }
+    }
+}

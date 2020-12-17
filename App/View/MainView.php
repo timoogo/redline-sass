@@ -54,8 +54,39 @@
             </div>
         </section>
         <section class="hero--compare">
-        <h2>Comparez vous à vos <span class="highlight">amis</span> en quelques <span class="highlight">clics</span> !</h2>
+            <div class="content">
+            <h2>Comparez vous à vos <span class="highlight">amis</span> en quelques <span class="highlight">clics</span> !</h2>
         <h3>Répondez aux <span class="highlight">sondages</span> en quelques clics puis demandez <span class="highlight">l'avis</span> à vos amis en le partageant par <span class="highlight">Messenger</span>, <span class="highlight">Twitter</span>, <span class="highlight">SMS</span> et <span class="highlight">WhatsApp</span>. Vous serez sans doute supris de l’avis de vos amis !</h3>
+            </div>
+        </section>
+
+
+        <section preview>
+            <h2 class="clear">Regardez vos stats</h2>
+            <section MyApp>
+                <header>
+                    <nav>
+                        <button>Dashboard</button>
+                        <button>Mes participations</button>
+                        <button>Mes sondages</button>
+                        <button>Mon profil</button>
+                    </nav>
+                </header>
+                <div class="title">
+                    <h4>Dashboard</h4>
+                    <span class="annotation">Ici tu verras tes stats </span>
+                </div>
+              
+                <section class="cards">
+                    <div class="card profil--response">
+                        <div class="smiley"><img src="assets/img/smiley.png" alt="smiley"></div>
+                        <h4>Réponses correctes</h4>
+                        <div class="progress">
+                          <progress value='1'max='2'></progress>
+                    </div>
+                    </div>
+                </section>
+            </section>
         </section>
     </main>
 
