@@ -73,19 +73,28 @@ section[singlePoll]{
 section[MyApp]{
     section.cards{
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-around;
         flex-direction: row;
         & div.card.profil--response{
+
             border: 4px solid $pinkish-tan;
             border-radius: 10px;
-            width:25%;
-            height: 50vh;
+            flex-basis:25%;
+            width: 25%;
+            height: 35vh;
             background-color: $clear-color;
             margin: 2rem auto;
             box-sizing: border-box;
-            & .smiley img{
+            & h4{
+                text-align: center;
+                color:$dark-mauve;
+            }
+            & .smiley { 
+                margin-top: 30px;
+                & img{
                 display: block;
-                margin: auto;
+                margin: auto;}
             }
             & progress::-webkit-progress-bar {
                 background: $dark-mauve !important;

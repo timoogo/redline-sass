@@ -85,6 +85,20 @@
                           <progress value='1'max='2'></progress>
                     </div>
                     </div>
+                    <div class="card profil--response">
+                        <div class="smiley"><img src="assets/img/smiley.png" alt="smiley"></div>
+                        <h4>Réponses correctes</h4>
+                        <div class="progress">
+                          <progress value='1'max='2'></progress>
+                    </div>
+                    </div>
+                    <div class="card profil--response">
+                        <div class="smiley"><img src="assets/img/smiley.png" alt="smiley"></div>
+                        <h4>Réponses correctes</h4>
+                        <div class="progress">
+                          <progress value='1'max='2'></progress>
+                    </div>
+                    </div>
                 </section>
             </section>
         </section>
