@@ -53,6 +53,10 @@
                 </aside>
             </div>
         </section>
+        <section class="hero--compare">
+        <h2>Comparez vous à vos <span class="highlight">amis</span> en quelques <span class="highlight">clics</span> !</h2>
+        <h3>Répondez aux <span class="highlight">sondages</span> en quelques clics puis demandez <span class="highlight">l'avis</span> à vos amis en le partageant par <span class="highlight">Messenger</span>, <span class="highlight">Twitter</span>, <span class="highlight">SMS</span> et <span class="highlight">WhatsApp</span>. Vous serez sans doute supris de l’avis de vos amis !</h3>
+        </section>
     </main>
 
 
