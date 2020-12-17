@@ -2,6 +2,7 @@ section[preview]{
     height: 150vh;
     background-color: $pinkish-tan;
     padding: 5vh;
+    position: relative;
     box-sizing: border-box;
     & h2{
         text-align: right;
@@ -10,6 +11,19 @@ section[preview]{
         &.clear{
             color: $clear-color;
         }
+    }
+    & .social-links {
+        display: flex;
+        justify-content: flex-end;
+        position: absolute;
+        right: 0;
+        top: -67px;
+     & .fab{
+            font-size: 70px;
+          }
+          & a{
+              margin: 0 1vw;
+          }
     }
 }
 

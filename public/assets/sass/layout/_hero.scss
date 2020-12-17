@@ -22,8 +22,22 @@
     position: relative;
     top: -26vh;
    & .content{
-
-       width: 40%;
+       width: 30%;
        margin-left: 10vw;
+       & h3{
+           font-size: $h4-font-size;
+           margin: 2.5vh auto;
+       }
+    }
+}
+@media screen and (min-width : 1440px){
+    .hero--compare{
+        position: relative;
+        top: -20vh;
+       & .content{
+    
+           width: 40%;
+           margin-left: 10vw;
+        }
     }
 }
