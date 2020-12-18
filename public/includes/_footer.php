@@ -1,17 +1,17 @@
 <footer>
     <div class="medias">
-        <h2>REDLINE</h2>
-        <div class="links">
-            <a href="#">Github</a>
-            <a href="#">Github</a>
-            <a href="#">Github</a>
-            <a href="#">Github</a>
+      <h2>  <a href="#">REDLINE</a></h2>
+        <div class="social-links">
+                         <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
 
         </div>
     </div>
     <div class="pages">
+        <h2>pages</h2>
         <ul class="links">
-            <h2>pages</h2>
             <li><a href="#">Page</a></li>
             <li><a href="#">Page</a></li>
             <li><a href="#">Page</a></li>

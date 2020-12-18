@@ -1,3 +1,35 @@
 footer{
-    display: none;
+    background-color: $pinkish-tan; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 5vh;
+    height: 40vh;
+    & .medias{
+
+        & .social-links {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            
+            & .fab{
+                font-size: 70px;
+            }
+            & a{
+                margin: 0 1vw;
+            }
+        }
+    }
+    & .pages{
+        & .links{
+
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            height: 9vh;
+            justify-content: flex-end;
+            margin-top: 5px;
+        }
+    }
 }

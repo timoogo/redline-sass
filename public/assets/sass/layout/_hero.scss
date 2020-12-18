@@ -30,6 +30,74 @@
        }
     }
 }
+section[hero--phone]{
+    & .top{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        & h4{
+            color: $dark-mauve;
+            font-size: 35px;
+            /* display: block; */
+            width: 100%;
+            text-align: center;
+        }
+        & a{
+            margin: 0 auto;
+            width: 100%;
+            display: block;
+            & img {
+                border: 1px solid;
+                display: block;
+                margin: auto;
+            }
+        }
+   
+        & .hero-content {
+            flex-basis: 40%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+            & .hero-image{
+                width: 20%;
+                & img{
+                    display: block;
+                    width: 60%;
+                    margin: 5vh;
+                }
+            }
+       
+    }
+    & .bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 25vh;
+        justify-content: center;    
+        & .download{
+            display: flex;
+            justify-content: space-evenly;
+            height: 20vh;
+            align-items: center;
+            & a{
+                flex-basis: 35%;
+                margin: auto;
+                display: flex;
+                justify-content: center;
+                & img{
+                    width: 50%;
+                }
+            }
+        }
+
+    }
+ }
+ 
+    
+
 @media screen and (min-width : 1440px){
     .hero--compare{
         position: relative;

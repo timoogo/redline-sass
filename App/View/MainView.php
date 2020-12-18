@@ -116,7 +116,31 @@
                     </div>
                 </section>
             </section>
-            </div>
+        </section>
+        <section hero--phone>
+           <section class="top">
+               <div class="hero-content">
+                 <h4>  Utilisable rapidement et facilement sur iPhone grâce à des QR codes générés à la création du formulaire</h4>
+                 <a href="#" class="qr-code">
+                    <img src="assets/img/qr.png" alt="">
+                 </a>
+             </div>
+
+                 <div class="hero-image">
+                     <img src="assets/img/desktop-frame.png" alt="Aperçu à l'interieur de l'application">
+                 </div>
+               </div>
+           </section>
+            <section class="bottom">
+            <h2>N’attendez plus,venez l’essayer !</h2>
+           <div class="download">
+               <a href="#"><img src="assets/img/app_store_download.png" alt="Download on the App Store"></a>
+               <a href="#"><img src="assets/img/google_play_download.png" alt="Download on the Google Play"></a>
+           </div>
+            </section>
+
+        </section>
+        </div>
     </main>
 
 
