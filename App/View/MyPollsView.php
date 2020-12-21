@@ -83,8 +83,10 @@ foreach($friendPolls as $friendPoll) : ?>
 
         </div>
 
-        <a href="?page=createPoll" class="returnhome">Créer un sondage</a>
-        <a href="?page=allMyPolls" class="returnhome">Tous mes sondages</a>
+      <div class="userActions">
+      <a class ="button" href="?page=createPoll" class="returnhome">Créer un sondage</a>
+        <a class ="button" href="?page=allMyPolls" class="returnhome">Tous mes sondages</a>
+      </div>
     </div>
     <?php include ROOT.'/public/includes/_footer.php'?>
 </body>

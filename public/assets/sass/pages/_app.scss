@@ -16,6 +16,10 @@ h2.app{
 h3.app{
         color: $pinkish-tan;
     font-size: $h3-font-size;
+
+}
+#messages h3.app {
+    margin: 5vh auto;
 }
 .wrapper.app{
     min-height: 80vh;
@@ -95,5 +99,9 @@ h3.app{
     margin: auto 25px;
     padding: 8px;
     
+}
+& .userActions{
+    margin: -2vh auto;
+    height: 10vh;
 }
 }

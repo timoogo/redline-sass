@@ -19,11 +19,12 @@ if (array_key_exists("page", $_GET)) {
             break;
         
         case 'deconnexion':
+
             $controller = new ConnexionController();
             $controller->deconnexion();
             header("Location: index.php?");
             break;
-
+             
         case 'signUp':
             $controller = new SignUpController();
             $controller->createAccount();
@@ -35,9 +36,16 @@ if (array_key_exists("page", $_GET)) {
             break;
 
         case 'MyPolls':
+            if (!isset($_SESSION["id"])) {
+                echo "<script>
+                alert('La page actuelle n\'est disponible qu\'une fois l\'utilisateur connecté');
+                window.location.href='index.php?';
+                </script>";
+                exit; // prevent further execution, should there be more code that follows
+            } else{
             $controller = new MyPollsController();
             $controller->main();
-            break;
+            break;}
 
         case 'friends':
             $controller = new FriendsController();

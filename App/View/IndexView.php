@@ -9,6 +9,7 @@
 <body>
     <?php include ROOT. "/public/includes/_header.php" ;?>
     <main>
+
         <section class="hero--centered">
             <h2 class="catch-phrase">
                 Participez à des sondages en <span class="highlight">temps réel</span> et comparez vos résultats

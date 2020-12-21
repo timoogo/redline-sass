@@ -5,7 +5,8 @@
     <title>Résultat des votes</title>
 </head> 
 <body>
-<?php include ROOT. "/public/includes/_header.php" ;?>
+    <?php include ROOT. "/public/includes/_header.php" ;?>
+
 <div class="wrapper app">
     
 <h1 class="app">Résultats :</h1>
@@ -17,8 +18,10 @@
 </div>
 <h3>Total votes : <?=$totalVotes?></h3>
 
-<div id="messages"></div>
+<div id="messages">
+    <h3 class="app">Envoyer un message</h3>
 
+</div>
 
     <form method="POST">
         <input class="message" type="text" name="message" id="">
