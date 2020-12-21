@@ -12,9 +12,9 @@
         <!-- Afficher le user name -->
         <h1 class="app">Bienvenue <?php echo($user[0]->user_name)?></h1>
         <div class="links">
-            <a href="?page=deconnexion">Se deconnecter</a>
-            <a href="?page=profil">Modifier mes infos</a>
-            <a href="?page=friends">Mes amis</a>
+            <a class="button" href="?page=friends">Mes amis</a>
+            <a class="button" href="?page=profil">Modifier mes infos</a>
+            <a class="button" href="?page=deconnexion">Se deconnecter</a>
         </div>
         <div class="previousPolls">
 

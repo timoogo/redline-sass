@@ -91,8 +91,6 @@ class CreatedPollController{
         $getPollFirstAnswer = $getPoll[0]->poll_answer1;
         $getPollSecondAnswer = $getPoll[0]->poll_answer2;
 
-        require ROOT."/App/View/CreatedPollView.php";
-
         // Si c'est le creator du poll qui regarde 
         if($_SESSION["id"] == $getPollAcceptedId){
             return $this->pollResult($pollId);

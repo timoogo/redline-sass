@@ -39,7 +39,7 @@ class ProfilController{
                     // if the confirmed password macth with the password 
                     if($newUserPassword == $confirmedNewUserPassword){
                         $userUpt = $this->model->updateUserInfos($newUserName, $newUserPassword, $_SESSION['user_password'], $_SESSION['id']);
-                        header("Location: ../public/index.php?page=main");
+                        header("Location: ../public/index.php?page=MyPolls");
                     }else{
                         echo('Les deux mots de passe sont différents');
                     }

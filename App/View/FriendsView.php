@@ -37,7 +37,7 @@
     <button type="submit" name="supprFriend">Supprimer cet ami</button>
     </form>
 
-    <a href="?page=main" class="returnhome">Retour à l'accueil</a>
+    <a href="?page=MyPolls" class="returnhome">Retour à la page principale</a>
 
 </body>
 </html>

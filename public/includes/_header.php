@@ -3,12 +3,11 @@
         <nav>
             <ul>
               <li><a href="?page=MyPolls">Ma page de gestion</a></li>
-              <li><a href="#">Lien 1</a></li>
-              <li><a href="#">Lien 1</a></li>
             </ul>
-        </nav>
-        <div class="actions">
-            <a href="?page=connexion">Connexion</a>
-            <button>inscription</button>
+            <div class="actions">
+            <a class="button" href="?page=connexion">Connexion</a>
+            <a class="button" href="?page=signUp">Inscription</a>
         </div>
+        </nav>
+ 
 </header>

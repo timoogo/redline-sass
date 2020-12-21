@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
+<head> 
 <?php include ROOT. "/public/includes/_head.php" ;?>
 <title>Créer un sondage</title>
 </head> 
@@ -8,7 +8,7 @@
 <?php include ROOT.'/public/includes/_header.php'?>
     <div class="wrapper app">
     <!-- formulaire de création du sondage -->
-    <h2 class="app">Créer un nouveau sondage</h2>
+    <h1 class="app">Créer un nouveau sondage</h1>
 
     <form method="POST" class="create">
 
@@ -82,20 +82,7 @@
                     <option value='$i'>$i</option>");  
                 }      
             ?>
-            </select>
-            <span class="highlight">Seconde :</span>
-            <select name="poll_limit_sec">
-                <?php for($i = 0; $i<=59;$i++) 
-                 if($i<10){
-                    echo("
-                    <option value='0$i'>0$i</option>");   
-                }else{
-                    echo("
-                    <option value='$i'>$i</option>");  
-                }      
-            ?>
-            </select>
-
+            </select>   
         </div>
         <!-- Bouton d'envoie du formulaire  -->
         <input name="sendPollToDb" type="submit" placehoder="Créer le sondage">

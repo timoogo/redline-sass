@@ -19,7 +19,7 @@ class CreatePollController{
                     // Check poll second answer 
                     if(!empty($_POST["poll_answer2"])){
                         // Limit date choosen by user
-                        $limitDate = $_POST['poll_limit_years'] ."-". $_POST['poll_limit_months'] ."-". $_POST['poll_limit_days'] ." ". $_POST['poll_limit_hours'] .":". $_POST['poll_limit_min'] .":". $_POST['poll_limit_sec'];
+                        $limitDate = $_POST['poll_limit_years'] ."-". $_POST['poll_limit_months'] ."-". $_POST['poll_limit_days'] ." ". $_POST['poll_limit_hours'] .":". $_POST['poll_limit_min'] .":00";
                         // Current date
                         date_default_timezone_set("Europe/Paris");
                         $currentDateTime = date('Y-m-d H:i:s');

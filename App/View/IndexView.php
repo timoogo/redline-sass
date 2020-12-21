@@ -13,9 +13,9 @@
             <h2 class="catch-phrase">
                 Participez à des sondages en <span class="highlight">temps réel</span> et comparez vos résultats
             </h2>
-            <a class="button" href="#">Regarder un exemple</a>
+            <a class="button" href="#example">Regarder un exemple</a>
         </section>
-        <section singlePoll>
+        <section singlePoll id="example">
             <div class="title">
                 <h2>Les céréales, <span class="highlight">avant</span> ou <span class="highlight">après</span> le lait ?
                 </h2>

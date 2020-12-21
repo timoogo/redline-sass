@@ -13,10 +13,18 @@ h2.app{
         margin-top: 30px;
     }
 }
+h3.app{
+        color: $pinkish-tan;
+    font-size: $h3-font-size;
+}
 .wrapper.app{
     min-height: 80vh;
     width: 70%;
     margin: auto;
+    & .links a.button{
+        width:  inherit;
+       height : inherit;
+    }
     & a{
         color: $dark-mauve;
     }

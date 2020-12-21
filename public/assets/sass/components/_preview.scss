@@ -42,12 +42,7 @@ section[MyApp]{
             & button{
                 height: 75px;
             }
-            & button:first-of-type, button:last-of-type {
-                /* display: flex; */
-                /* flex-direction: revert; */
-                position: relative;
-                top: 8px;
-        }
+      
     }
 }
     .title{

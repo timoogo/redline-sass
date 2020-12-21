@@ -17,7 +17,8 @@
 
             <button type="submit" name="submitProfilChanges">Valider</button>
         </form>
-        <a href="?page=main" class="returnhome">Retour à l'accueil</a>
+        <a href="?page=MyPolls" class="returnhome">Retour à la page principale</a>
+
     </div>
 </body>
 </html>

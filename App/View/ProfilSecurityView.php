@@ -12,8 +12,8 @@
             <input type="password" name="currentPassword" >
             <button type="submit" name="submitCurrentPassword">Valider</button>
         </form>
-        <a href="?page=main">Retour à l'accueil</a>
-    
+        <a href="?page=MyPolls" class="returnhome">Retour à la page principale</a>
+   
     </div>
 </body>
 </html>
