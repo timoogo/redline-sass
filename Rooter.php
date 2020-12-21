@@ -21,6 +21,7 @@ if (array_key_exists("page", $_GET)) {
         case 'deconnexion':
             $controller = new ConnexionController();
             $controller->deconnexion();
+            header("Location: index.php?");
             break;
 
         case 'signUp':

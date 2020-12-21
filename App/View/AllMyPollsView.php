@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
-</head>
+<?php include ROOT. "/public/includes/_head.php" ;?>
+<title>Regardez tout les sondages disponibles</title>
+</head> 
 <body>
-    
-<h2>Tous mes sondages :</h2>
+<?php include ROOT.'/public/includes/_header.php'?>
+    <div class="wrapper app">
+    <h1 class="app">Tous mes sondages :</h1>
 <div class="center">
 <table>
         <thead>
@@ -40,8 +39,10 @@
     </table>
     </div>
 
-    <a href="?page=main" class="returnhome">Retour à l'accueil</a>
-
+    <a href="?page=MyPolls" class="returnhome">Retour à l'accueil</a>
+    <?php include 'DeconnexionView.php'?>
+    </div>
+    <?php include ROOT.'/public/includes/_footer.php'?>;
 
 </body>
 </html>

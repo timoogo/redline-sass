@@ -1,0 +1,91 @@
+h1.app{
+    text-align: center;
+    font-size: $h4-font-size;
+    text-transform: capitalize;
+    color: $pinkish-tan;
+    margin-top: 30px;
+}
+h2.app{
+    &.highlight{
+        text-align: center;
+        font-size: $h5-font-size;
+        color: $pinkish-tan;
+        margin-top: 30px;
+    }
+}
+.wrapper.app{
+    min-height: 80vh;
+    width: 70%;
+    margin: auto;
+    & a{
+        color: $dark-mauve;
+    }
+    & .links{
+        margin: 3vh auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    & table{
+        margin: 2vh auto;
+        width: 90%;
+        & tbody td :not(last-child){
+            margin: 2vh auto;
+            border:1px solid $pinkish-tan
+            
+        }
+    }
+  & .previousPolls{min-height: 30vh;}
+  & .currentPolls{min-height: 30vh;}
+  & form{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    height: 100%;
+
+    & input{
+        padding: 5px;
+    }
+    & input[type=submit]{
+        width: 130px;
+        height: 54px;
+        margin: 15px auto;
+        padding: 11px 22px 10px;
+        border-radius: 6px;
+        background-color: $button-color;
+        color:$dark-mauve;
+        border: 1px transparent;
+
+    
+        &:hover{
+          background-color: $clear-color;  
+          border: 1px solid $dark-mauve;
+        }
+    }
+  }
+  & .create{
+      margin: 10vh auto;
+      margin-bottom: 15vh;
+  }
+  & .choices {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vh;
+    width: 100%;
+    & .choice {
+        flex-basis: 40%;
+
+    }
+    & span{
+        align-self: center;
+    }
+  }
+  & .date{
+    margin-top: 4vh;
+    margin-bottom: 5vh;
+  }
+  & select {
+    margin: auto 25px;
+    padding: 8px;
+    
+}
+}

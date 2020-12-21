@@ -1,8 +1,8 @@
 <header>
-        <a href="#"><h1>redline</h1></a>
+        <a href="?"><h1>redline</h1></a>
         <nav>
             <ul>
-              <li><a href="?page=MyPolls">Lien 1</a></li>
+              <li><a href="?page=MyPolls">Ma page de gestion</a></li>
               <li><a href="#">Lien 1</a></li>
               <li><a href="#">Lien 1</a></li>
             </ul>

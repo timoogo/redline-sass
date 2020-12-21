@@ -1,13 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+    <head>
+      <?php include ROOT. "/public/includes/_head.php" ;?>
+        <title>Page d'accueil</title>
+    </head> 
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/css/import.css">
-    <script src="https://kit.fontawesome.com/2a28e9e3fb.js" crossorigin="anonymous"></script>
-</head>
 
 <body>
     <?php include ROOT. "/public/includes/_header.php" ;?>

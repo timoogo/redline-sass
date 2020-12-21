@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/css/created.css">
-</head>
+<?php include ROOT. "/public/includes/_head.php" ;?>
+<title>Résultat des votes</title>
+</head> 
 <body>
-
-<h2>Résultats :</h2>
+<?php include ROOT. "/public/includes/_header.php" ;?>
+<div class="wrapper app">
+    
+<h2 class="app">Résultats :</h2>
 
 <h3><?=$getPollFirstAnswer?> : <?=$votesAnswer1Percents?>%</h3>
 
@@ -25,6 +25,7 @@
     </form>
 
     <a href="?page=main">Retour à l'accueil</a>
+</div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="../public/assets/js/app.js"></script>
 </body>

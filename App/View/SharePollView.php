@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+<?php include ROOT. "/public/includes/_head.php" ;?>
+<title>Envoyer le sondage a tout mes amis</title>
+</head> 
 <body>
     
 <form action="" method="POST">

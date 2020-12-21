@@ -1,30 +1,28 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Création d'un sondage</title>
-    <link rel="stylesheet" href="assets/css/create.css">
-
-</head>
-
+<?php include ROOT. "/public/includes/_head.php" ;?>
+<title>Créer un sondage</title>
+</head> 
 <body>
-
-
+<?php include ROOT.'/public/includes/_header.php'?>
+    <div class="wrapper app">
     <!-- formulaire de création du sondage -->
-    <h1>Créer un nouveau sondage</h1>
+    <h2 class="app">Créer un nouveau sondage</h2>
 
-    <form method="POST">
+    <form method="POST" class="create">
 
         <input type="text" name="poll_title" placeholder="Choisir une question">
-        <input type="text" name="poll_answer1" placeholder="Choix numéro 1">
-        <input type="text" name="poll_answer2" placeholder="Choix numéro 2">
+        <div class="choices">
+            <input type="text" name="poll_answer1" placeholder="Choix numéro 1" class="choice">
+            <span class="highlight">VS</span>
+            <input type="text" name="poll_answer2" placeholder="Choix numéro 2" class="choice">
+        </div>
 
 
+        <h2 class="app highlight">Se terminera le :</h2>
         <div class="date">
-
-            <p>year :</p>
+            <span class="highlight">Année :</span>
             <select name="poll_limit_years">
                 <?php for($i = 2020; $i<=2030;$i++) 
                 echo("
@@ -32,7 +30,7 @@
             ?>
             </select>
 
-            <p>month :</p>
+            <span class="highlight">Mois :</span>
             <select name="poll_limit_months">
                 <?php for($i = 1; $i<=12;$i++) 
                 if($i<10){
@@ -44,7 +42,7 @@
                 }
             ?>
             </select>
-            <p>day :</p>
+            <span class="highlight">Jour :</span>
             <select name="poll_limit_days">
                 <?php for($i = 1; $i<=31;$i++) 
                 if($i<10){
@@ -56,7 +54,7 @@
                 }     
             ?>
             </select>
-            <p>hour :</p>
+            <span class="highlight">Heure :</span>
             <select name="poll_limit_hours">
                 <?php for($i = 1; $i<=24;$i++) 
                     if($i<10){
@@ -73,7 +71,7 @@
                     }    
             ?>
             </select>
-            <p>min :</p>
+            <span class="highlight">Minute :</span class="highlight">
             <select name="poll_limit_min">
                 <?php for($i = 0; $i<=59;$i++) 
                 if($i<10){
@@ -85,7 +83,7 @@
                 }      
             ?>
             </select>
-            <p>sec :</p>
+            <span class="highlight">Seconde :</span>
             <select name="poll_limit_sec">
                 <?php for($i = 0; $i<=59;$i++) 
                  if($i<10){
@@ -99,14 +97,13 @@
             </select>
 
         </div>
-        <br>
-        <br>
         <!-- Bouton d'envoie du formulaire  -->
         <input name="sendPollToDb" type="submit" placehoder="Créer le sondage">
     </form>
 
-    <a href="?page=main">Retour à l'accueil</a>
-
+    <a href="?page=MyPolls">Retour à l'accueil</a>
+    </div>
+    <?php include ROOT.'/public/includes/_footer.php'?>
 </body>
 
 </html>
